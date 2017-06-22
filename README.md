@@ -7,6 +7,7 @@ Swarm Dispersion/Coverage Algorithm:
 Input: relative distance/orientation.
 Output: speed and turning angle.
 
+Details of Algorithm:  
 To get input of the Algorithm
 1. Calculate relative distances from the neighbor zebro to the current zebro
 2. Get the information(relative distance/orientation) of zebros, whose relative
@@ -14,7 +15,7 @@ To get input of the Algorithm
 PS. If there is no zebros whose relative distance is in the detection range,
    the iteration will be skipped.
 
-&emsp;Details of Algorithm:
+&emsp;In the Algorithm:
 
 3. In the Algorithm, sort the zebros by relative distances in ascending order.
    If one zebro is: 
@@ -22,9 +23,9 @@ PS. If there is no zebros whose relative distance is in the detection range,
 &emsp;3.1 one of the numOfNeighbors(maximum number of neighbors for calculation) closest neighbors
 
 &emsp;3.2 its relative distance to the current zebro is less than distDisp(distance of dispersion)  
-&emsp;&emsp;&emsp;This zebro will be included in nZebros(neighbor zebro)for calculation  
-&emsp;&emsp;&emsp;PS. If there is no zebro whose relative distance is less than distDisp,  
-&emsp;&emsp;&emsp;the calculation will be skipped.
+&emsp;&emsp;&ensp;This zebro will be included in nZebros(neighbor zebro)for calculation  
+&emsp;&emsp;&ensp;PS. If there is no zebro whose relative distance is less than distDisp,  
+&emsp;&emsp;&ensp;the calculation will be skipped.
 
 4. Calculate the speed and turning angle of the current zebro. The result 
    will be the out put of the Algorithm.
