@@ -14,7 +14,7 @@ To get input of the Algorithm
 PS. If there is no zebros whose relative distance is in the detection range,
    the iteration will be skipped.
 
-Details of Algorithm:
+&emsp;Details of Algorithm:
 
 3. In the Algorithm, sort the zebros by relative distances in ascending order.
    If one zebro is: 
@@ -22,14 +22,14 @@ Details of Algorithm:
 &emsp;3.1 one of the numOfNeighbors(maximum number of neighbors for calculation) closest neighbors
 
 &emsp;3.2 its relative distance to the current zebro is less than distDisp(distance of dispersion)  
-&emsp;&emsp;This zebro will be included in nZebros(neighbor zebro)for calculation  
-&emsp;&emsp;PS. If there is no zebro whose relative distance is less than distDisp,  
-&emsp;&emsp;the calculation will be skipped.
+&emsp;&emsp;&emsp;This zebro will be included in nZebros(neighbor zebro)for calculation  
+&emsp;&emsp;&emsp;PS. If there is no zebro whose relative distance is less than distDisp,  
+&emsp;&emsp;&emsp;the calculation will be skipped.
 
 4. Calculate the speed and turning angle of the current zebro. The result 
    will be the out put of the Algorithm.
 
-To do visualization, after getting the output of the Algorithm
+&emsp;To do visualization, after getting the output of the Algorithm
 
 5. Calculate the coordinates of the current zebro according to the speed and
    turning angle, which is necessary for visualization on matlab. 
