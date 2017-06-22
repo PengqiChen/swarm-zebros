@@ -16,5 +16,6 @@ Open zebros.m in Matlab and press 'F5'.
 Algorithm version:  
 Simple Version.   
 
-Probelm: zebros can turn any angle for single iteration, which can make  
-the movement like a jitter. 
+Later Work:  
+To simultate the movement more realistic as zebros. 
+To Filter the jitter during movement.
