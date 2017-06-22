@@ -1,6 +1,8 @@
 Swarm Dispersion/Coverage Algorithm:
 
 1. Uniform Dispersion/Coverage
+2. Wall avoidance
+3. Turning angle limitation: pi/3 per iteration
 
 Input: relative distance/orientation.
 Output: speed and turning angle.
@@ -13,12 +15,13 @@ PS. If there is no zebros whose relative distance is in the detection range,
    the iteration will be skipped.
 
 Details of Algorithm:
+
 3. In the Algorithm, sort the zebros by relative distances in ascending order.
    If one zebro is: 
-   3.1 one of the numOfNeighbors(maximum number of neighbors for calculation) 
-   closest neighbors
-   3.2 its relative distance to the current zebro is less than 
-   distDisp(distance of dispersion)
+
+3.1 one of the numOfNeighbors(maximum number of neighbors for calculation) closest neighbors
+
+3.2 its relative distance to the current zebro is less than distDisp(distance of dispersion)
    This zebro will be included in nZebros(neighbor zebro)for calculation
    PS. If there is no zebro whose relative distance is less than distDisp,
    the calculation will be skipped.
@@ -27,11 +30,14 @@ Details of Algorithm:
    will be the out put of the Algorithm.
 
 To do visualization, after getting the output of the Algorithm
+
 5. Calculate the coordinates of the current zebro according to the speed and
    turning angle, which is necessary for visualization on matlab. 
 
 How to execute the code:
+
 Open zebros.m in Matlab and press 'F5'.
 
 State:
+
 In Process
