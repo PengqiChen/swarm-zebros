@@ -1,0 +1,14 @@
+Swarm Dispersion Algorithm:
+This algorithm is to disperse swarm. 
+1. Python is used for calculation to upadte the state of No.6 zebro.
+2. Matlab is used as the simulation environment and does the calculation for other zebros. 
+
+
+How to execute the code:
+Open zebros.m in Matlab and press 'F5'.
+
+
+Algorithm version:
+Simple Version. zebros can turn any angle for single iteration, which can make
+the movement like a jitter. 
+
