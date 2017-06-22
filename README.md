@@ -19,12 +19,12 @@ Details of Algorithm:
 3. In the Algorithm, sort the zebros by relative distances in ascending order.
    If one zebro is: 
 
-&ensp;3.1 one of the numOfNeighbors(maximum number of neighbors for calculation) closest neighbors
+&emsp;3.1 one of the numOfNeighbors(maximum number of neighbors for calculation) closest neighbors
 
-&ensp;3.2 its relative distance to the current zebro is less than distDisp(distance of dispersion)
-   This zebro will be included in nZebros(neighbor zebro)for calculation
-   PS. If there is no zebro whose relative distance is less than distDisp,
-   the calculation will be skipped.
+&emsp;3.2 its relative distance to the current zebro is less than distDisp(distance of dispersion)  
+&emsp;&emsp;This zebro will be included in nZebros(neighbor zebro)for calculation  
+&emsp;&emsp;PS. If there is no zebro whose relative distance is less than distDisp,  
+&emsp;&emsp;the calculation will be skipped.
 
 4. Calculate the speed and turning angle of the current zebro. The result 
    will be the out put of the Algorithm.
