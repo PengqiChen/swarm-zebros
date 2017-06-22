@@ -8,7 +8,7 @@ Input: relative distance/orientation.
 Output: speed and turning angle.
 
 Details of Algorithm:  
-To get input of the Algorithm
+&emsp;To get input of the Algorithm
 1. Calculate relative distances from the neighbor zebro to the current zebro
 2. Get the information(relative distance/orientation) of zebros, whose relative
    distance is in detection range as the INPUT of the algorithm.
