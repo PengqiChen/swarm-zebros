@@ -1,44 +1,20 @@
-Swarm Dispersion/Coverage Algorithm:
+Swarm Dispersion Algorithm:  
+This is a distributed algorithm for swarm dispersion.   
+1. Python is used to do calculation to upadte the state of No.6 zebro.  
+2. Matlab is used as the simulation environment and does the calculation for other zebros. 
 
-1. Uniform Dispersion/Coverage
-2. Wall avoidance
-3. Turning angle limitation: pi/3 per iteration
+Input:  
+Coordinates of zebros.(coordinates is used to get relative position between neighbors)
 
-Input: relative distance/orientation.
-Output: speed and turning angle.
+Output:  
+Coordinates of zebros
 
-Details of Algorithm:  
-&emsp;To get input of the Algorithm
-1. Calculate relative distances from the neighbor zebro to the current zebro
-2. Get the information(relative distance/orientation) of zebros, whose relative
-   distance is in detection range as the INPUT of the algorithm.
-PS. If there is no zebros whose relative distance is in the detection range,
-   the iteration will be skipped.
-
-&emsp;In the Algorithm:
-
-3. In the Algorithm, sort the zebros by relative distances in ascending order.
-   If one zebro is: 
-
-&emsp;3.1 one of the numOfNeighbors(maximum number of neighbors for calculation) closest neighbors
-
-&emsp;3.2 its relative distance to the current zebro is less than distDisp(distance of dispersion)  
-&emsp;&emsp;&ensp;This zebro will be included in nZebros(neighbor zebro)for calculation  
-&emsp;&emsp;&ensp;PS. If there is no zebro whose relative distance is less than distDisp,  
-&emsp;&emsp;&ensp;the calculation will be skipped.
-
-4. Calculate the speed and turning angle of the current zebro. The result 
-   will be the out put of the Algorithm.
-
-&emsp;To do visualization, after getting the output of the Algorithm
-
-5. Calculate the coordinates of the current zebro according to the speed and
-   turning angle, which is necessary for visualization on matlab. 
-
-How to execute the code:
-
+How to execute the code:  
 Open zebros.m in Matlab and press 'F5'.
 
-State:
 
-In Process
+Algorithm version:  
+Simple Version.   
+
+Probelm: zebros can turn any angle for single iteration, which can make  
+the movement like a jitter. 
