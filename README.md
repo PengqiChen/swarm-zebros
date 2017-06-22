@@ -1,10 +1,10 @@
 Swarm Dispersion Algorithm:  
 This is a distributed algorithm for swarm dispersion.   
-1. Python is used to do calculation to upadte the state of No.6 zebro.  
+1. Python is used to do calculation to update the state of No.6 zebro.  
 2. Matlab is used as the simulation environment and does the calculation for other zebros. 
 
 Input:  
-Coordinates of zebros.(coordinates is used to get relative position between neighbors)
+Coordinates of zebros.(coordinates are used to get relative position between neighbors)
 
 Output:  
 Coordinates of zebros
