@@ -1,0 +1,12 @@
+Moving Through Shortest Path
+1. Perform Uniform Dispersion/Coverage.
+2. Calculate and highlight the shortest path between two zebros,
+   use other zebros as in-between node.	
+3. The source zebro moves to the destination zebro by shortest path.
+
+How to execute the code:
+Open zebros.m in Matlab and press 'F5'.
+
+State:
+To be complete
+
